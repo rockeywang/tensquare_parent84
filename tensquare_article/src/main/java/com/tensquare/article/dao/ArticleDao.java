@@ -14,7 +14,7 @@ import org.springframework.data.jpa.repository.Query;
  */
 public interface ArticleDao extends JpaRepository<Article,String>,JpaSpecificationExecutor<Article>{
 
-    @Modifying
+    @Modifying //
     @Query(value = "UPDATE tb_article SET state = 1 WHERE id = ?", nativeQuery = true)
     public void examine(String id);
 
