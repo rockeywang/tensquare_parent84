@@ -1,4 +1,4 @@
-package java.com.tensequare.jwt;
+package com.tensequare.jwt;
 
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
